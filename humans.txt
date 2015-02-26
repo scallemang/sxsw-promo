@@ -1,0 +1,80 @@
+/* oswt.co.uk */
+/* humanstxt.org */
+
+	Developer: Al
+	Site: oswt.co.uk
+	Twitter: @oswt
+	Location: London, England
+
+
+/* TEAM */
+
+	UI developer: Al
+	Twitter: @oswt
+	From: London, England
+
+	illustrator: Al
+	Twitter: @oswt
+	From: London, England
+
+	Web designer: Al
+	Twitter: @oswt
+	From: London, England
+
+
+/* THANKS */
+
+	(First) Al
+	Twitter: @oswt
+	Location: London, England
+
+
+/* SITE */
+
+	Last update:2012/12/17
+	Language:English / American
+	Doctype:HTML5
+	Software: Sublime Text, Notepad++, FileZilla, Photoshop, JavaScript,
+	Components: jQuery, PHP, Love :)
+
+
+
+/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
+/* zurb.com */
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Orbit, Reveal
+  Software: Coda, Textmate, Git
+
+
+
+
+
+------------------- BE PART OF humanstxt.org ----------------------------------------------------------
+ 
+                        
+
+    /* TEAM */
+    Your title: Your name.
+    Site: email, link to a contact form, etc.
+    Twitter: your Twitter username.
+    Location: City, Country.
+
+
+    /* THANKS */
+    Name: name or url
+
+
+
+    /* SITE */
+    Last update: YYYY/MM/DD
+    Standards: HTML5, CSS3,..
+    Components: Modernizr, jQuery, etc.
+    Software: Software used for the development
+
+
+
+------------------- END -------------------
+

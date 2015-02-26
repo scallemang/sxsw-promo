@@ -1,0 +1,43 @@
+<!-- Main Page Content and Sidebar -->
+
+  <div class="row" ng-controller="PackCtrl">
+
+    <!-- Main Blog Content -->
+    <div class="small-12 columns" role="content">
+
+      <article>
+
+        <div class="row">
+            <h3><a href="{{ slug }}">{{ data.title }}</a></h3>
+            <h6>Written by {{ data.authors }} on {{ data.date }}.</h6>
+        </div>
+        
+        <div class="row">
+          <div class="small-3 left columns">
+              Steps:
+              <ul ng-repeat="step in data.steps">
+                  <li><a href="#{{ step.slug }}" title="{{ step.title }}">{{ step.title }}</a></li>
+              </ul>
+          </div>
+          <div class="small-9 right columns">
+              Dependencies:
+              <ul class="row" 
+              ng-repeat="dep in data.dependencies">
+                  <li><a href="{{ dep.href }}" title="{{ dep.title }}">{{ dep.text }}</a></li>
+              </ul>
+              <div class="row" ng-repeat="step in data.steps">
+                  <h1>{{ $index + 1 }}. {{ step.title }}</h1><a name="{{step.slug}}"></a>
+                  <div ng-bind-html="trustAsHtml(step.body)"></div>
+              </div>
+          </div>
+        </div>
+
+      </article>
+
+      <hr />
+
+    </div>
+
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->

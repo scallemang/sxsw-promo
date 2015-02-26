@@ -1,0 +1,32 @@
+{   "title" : "Ruby Game Development",
+    "difficulty" : 1,
+    "slug" : "ruby-games",
+    "prerequisite" : "none",
+    "tags" : "ruby, command line, terminal",
+    "authors" : "   Meagh Bent",
+    "dojo" : "@CoderDojoTo",
+    "date" : "Feb 16 2015",
+    "dependencies" : [{
+        "title" : "Title Link",
+        "href" : "#",
+        "text" : "Link Text"
+    },
+    {
+        "title" : "Title Link",
+        "href" : "#",
+        "text" : "Link Text"
+    }],
+    "steps" : [{
+        "title" : "Setup",
+        "slug" : "setup",
+        "body" : "<h2></span></a>Windows</h2><ul class='task-list'><li>Install Ruby by running <code>installers/windows/rubyinstaller-1.9.3-p448.exe</code></li>   <li>Install Sublime by running <code>installers/windows/Sublime Text 2.0.2 Setup.exe</code>   </li><li>From the command line: <code>gem install gosu</code>  </li></ul>   <h2>Mac</h2><ul class='task-list'><li>Ruby is already installed! Yaay!</li>  <li>Install Sublime by running <code>installers/mac/Sublime Text 2.0.2.dmg</code><ul class='task-list'><li>And drag Sublime into Applications</li></ul></li><li>From the terminal: <code>gem install gosu</code></li></ul>"
+    },{
+        "title" : "Let's Begin!",
+        "slug" : "begin",
+        "body" : "<p>We're going to be reading and writing a lot of code. It may seem like a lot at first. You don't have to understand everything all at once, I know I never do. But we can play around with the code, we'll change it and see what happens. We'll learn by doing. So type along with me and we'll be fine.</p> <ul class='task-list'> <li>Open Sublime</li> <li>Drag the <code>code</code> folder into Sublime, this is the starting code we'll use to build upon.</li> </ul> <p>The <code>code</code> folder has two files: <code>main.rb</code> and <code>window.rb</code></p> <p><strong>main.rb:</strong></p> <div class='highlight highlight-ruby'><pre><span class='pl-k'>require</span> <span class='pl-s1'><span class='pl-pds'>'</span>rubygems<span class='pl-pds'>'</span></span> <span class='pl-k'>require</span> <span class='pl-s1'><span class='pl-pds'>'</span>gosu<span class='pl-pds'>'</span></span> <span class='pl-k'>require</span> <span class='pl-s1'><span class='pl-pds'>'</span>./window<span class='pl-pds'>'</span></span> window <span class='pl-k'>=</span> <span class='pl-s3'>Window</span>.<span class='pl-k'>new</span> window.show</pre></div> <p>This file will be used to run the program. It includes the other files we need.</p> <p>Remember that computers really don't know much and we have to define things for it. This is what is happening here. We are telling the program to require libraries that already have definitions. And then we're telling it to require a definition we created. We'll take a look at that in a moment.</p> <p>We are requiring the Gosu library, this is a library that makes it easier for us to make games in Ruby.</p> <p>The last two lines are used to create a new window, and then we're sending the <code>show</code> message to the window, and this tells the window to show itself!</p> <p><strong>window.rb</strong></p> <div class='highlight highlight-ruby'><pre><span class='pl-k'>class</span> <span class='pl-en'>Window<span class='pl-e'> &lt; Gosu::Window</span></span>   <span class='pl-k'>def</span> <span class='pl-en'>initialize</span>     <span class='pl-k'>super</span>(<span class='pl-c1'>300</span>, <span class='pl-c1'>300</span>, <span class='pl-c1'>false</span>)     <span class='pl-v'>self</span>.caption <span class='pl-k'>=</span> <span class='pl-s1'><span class='pl-pds'>'</span>Adnan's Game!<span class='pl-pds'>'</span></span>   <span class='pl-k'>end</span>   <span class='pl-k'>def</span> <span class='pl-en'>update</span>   <span class='pl-k'>end</span>   <span class='pl-k'>def</span> <span class='pl-en'>draw</span>   <span class='pl-k'>end</span> <span class='pl-k'>end</span></pre></div> <p>So this is how we define objects in Ruby. <code>Gosu::Window</code> is a prefined object from the Gosu library. We define object by using the term <code>class</code>. And inside the object we define methods. These are the messages we can send to the objects. The <code>show</code> method isn't defined here because the <code>Gosu::Window</code> library does that for us.</p>"
+    },{
+        "title" : "Let's run the code!",
+        "slug" : "run-the-code",
+        "body" : "<p>Click on the <code>main.rb</code> file Click on the <code>Tools</code> menu and select <code>Build</code></p> <p>A window pops up! NEAT!</p> <p>Let's close the window and play around with the code a little.</p> <p>Click on the <code>window.rb</code> file. Let's change around the numbers here. Run the program.</p> <p>Okay, let's settle on <code>500</code> and <code>500</code>.</p> <p>Oh look, it says 'Adnan's Game!', put in your own name here. Run the program.</p> <p>It shows your name! How amazing is that? Let's get more amazing by adding images that we can control!</p>"
+    }]
+}
