@@ -5,14 +5,12 @@ angular.module('myApp', [
   'ngRoute',
   //Register page modules
   'myApp.home',
-  'myApp.pack',
-  'myApp.contact',
+  'myApp.page',
   //Register component modules
   'myApp.topper'
 ]).
 config(['$routeProvider', function($routeProvider) {
   //Home is default
   $routeProvider
-    .when( '/', { redirectTo: '/home.html' })
     .otherwise({ redirectTo: '/home' });
 }]);
