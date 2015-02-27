@@ -7,7 +7,8 @@ angular.module('myApp', [
   'myApp.home',
   'myApp.page',
   //Register component modules
-  'myApp.topper'
+  'myApp.topper',
+  'myApp.foot'
 ]).
 config(['$routeProvider', function($routeProvider) {
   //Home is default

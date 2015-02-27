@@ -1,0 +1,17 @@
+<div class="large-12 columns"  ng-controller="FooterCtrl">
+  <hr/>
+  <div class="row">
+    <div class="large-6 columns">
+      <p>© Copyright no one at all. Go to town.</p>
+    </div>
+    <div class="large-6 columns">
+      <ul class="inline-list right">
+            <li ng-repeat="item in nav">
+                <a href="{{item.href}}" 
+                    title="{{item.title}}"
+                    class="{{item.class}}">{{item.text}}</a>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
