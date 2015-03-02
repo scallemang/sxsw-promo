@@ -1,36 +1,37 @@
+<div class="row">
+    <div class="large-12 columns top-bar very-top-bar">
+        <section class="top-bar-section">
+            <ul class="right">
+                <li>design.build.grow<img src="img/design-build-grow-icon.png" alt=""></li>
+            </ul>
+        </section>
+    </div>
+</div>
 <div class="row" ng-controller="TopperCtrl">
-    
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="/#home">Synbiota SXSW 2015 PROMO SITE</a></h1>
-        </li>
-        <!--
-        <li class="toggle-topbar menu-icon">
-            <a href="#"><span>Menu</span></a>
-        </li>
-        -->
-      </ul>
-      <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <!--
-        <ul class="right">
-          <li ng-repeat="item in nav">
-            <a href="{{item.href}}" 
-                title="{{item.title}}"
-                class="{{item.class}}">{{item.text}}</a>
-        </li>
-        </ul>
-        -->
-    
-        <!-- Left Nav Section -->
-        <ul class="left">
-            <li ng-repeat="item in nav">
-                <a href="{{item.href}}" 
-                    title="{{item.title}}"
-                    class="{{item.class}}">{{item.text}}</a>
-            </li>
-        </ul>
-      </section>
-    </nav>
+    <div class="large-12 columns">
+        <nav class="top-bar" data-topbar="">
+            <ul class="title-area">
+                <li class="name">
+                    <h1>
+                        <a href="#">Synbiota</a>
+                    </h1>
+                </li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#"><span>menu</span></a>
+                </li>
+            </ul>
+            <section class="top-bar-section">            
+                <ul class="left">
+                    <li ng-repeat="item in nav">
+                        <a href="{{item.href}}" 
+                        title="{{item.title}}"
+                        class="{{item.class}}">{{item.text}}</a>
+                    </li>
+                </ul>
+                <ul class="right">
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
 </div>

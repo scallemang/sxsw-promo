@@ -1,0 +1,177 @@
+.top-bar .row {
+	max-width: 62.5rem;
+}
+
+.top-bar,
+.top-bar *,
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+	background-color: white !important;
+	background: white !important;
+	color: #222 !important;
+}
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+	font-weight: bold;
+}
+
+.top-bar .name h1 {
+	line-height: 2.2125rem;
+	font-size: 1.625rem;
+}
+
+.top-bar section ul li a {
+	text-transform: uppercase;
+}
+
+.very-top-bar {
+	height: auto;
+}
+
+.very-top-bar ul li {
+	color: #FFFFFF;
+	padding: 12px 0 12px 0;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.panel.btn-huge {
+	border: 2px solid #333;
+	background: white;
+	padding: 50px 0;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.panel.btn-huge h3 {
+	text-transform: uppercase;
+}
+
+.panel.footer-panel {
+	background: #222;
+	margin-top: 1rem;
+	margin-bottom: 0;
+	border: none;
+}
+
+.panel.footer-panel .row {
+	max-width: 100%;
+}
+
+.panel.footer-panel h1, .panel.footer-panel h2, .panel.footer-panel.footer-panel.footer-panel h3, .panel.footer-panel h4, .panel.footer-panel h5, .panel.footer-panel h6, .panel.footer-panel p, .panel.footer-panel li, .panel.footer-panel dl {
+	color: #fefefe;
+}
+
+.panel.footer-panel h5,
+.panel.footer-panel h6 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.panel.footer-panel ul {
+	margin-left: 0;
+}
+
+.panel.footer-panel ul li {
+	list-style-type: none;
+}
+
+nav.bottom-bar ul {
+	display: inline-block;
+}
+
+nav.bottom-bar ul li {
+	float: left;
+}
+
+nav.bottom-bar ul li > a {
+	width: 100%;
+}
+
+nav.bottom-bar ul li > a,
+nav.bottom-bar p {
+	display: block;
+	color: #FFFFFF;
+	padding: 12px 0 12px 0;
+	padding-left: 15px;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: none;
+}
+
+nav.bottom-bar ul li:first-of-type > a {
+	padding-left: 0;
+}
+
+.header-center {
+	text-align: center;
+	margin: 80px auto 60px;
+}
+
+.header-center h1 {
+	line-height: 1;
+}
+
+.header-center h4 {
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.button.rounded {
+	border-radius: 7px;
+}
+
+input[type="text"] {
+	padding: 20px 10px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.padded h1, .padded h2, .padded h3, .padded h4, .padded h5, .padded h6, .padded p {
+	line-height: 3;
+	margin-bottom: 0;
+}
+
+p.large {
+	font-size: 1.3rem;
+}
+
+fieldset {
+	margin: 0;
+	margin-bottom: 1.125rem;
+}
+
+fieldset p {
+	font-size: 1rem;
+}
+
+.row.bordered {
+	border: 2px solid #777;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+.row.bordered h3,
+h3.bolded {
+	font-weight: bold;
+}
+
+h3.price {
+	text-align: right;
+}
+
+.catalogue img {
+	border: 2px solid #777;
+	margin-bottom: 1rem;
+}
+
+.catalogue [class*="column"] + [class*="column"]:last-child {
+	float: left;
+}

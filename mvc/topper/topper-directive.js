@@ -9,39 +9,27 @@ angular.module('myApp.topper.topper-directive', [])
             "class" : ""
         },
         1: {
-            "href" : "#/page",
-            "title" : "Sample Page",
-            "text" : "Page ",
+            "href" : "#/method",
+            "title" : "Method Page",
+            "text" : "Method",
             "class" : ""
         },
         2: {
-            "href" : "#",
-            "title" : "Sample Page",
-            "text" : "Page 2",
+            "href" : "#/standard",
+            "title" : "Standard Page",
+            "text" : "Standard",
             "class" : ""
         },
         3: {
-            "href" : "#",
-            "title" : "Sample Page",
-            "text" : "Page 3",
+            "href" : "#/dna_mrkt",
+            "title" : "DNA Market",
+            "text" : "DNA Market",
             "class" : ""
         },
         4: {
-            "href" : "#",
-            "title" : "Sample Page",
-            "text" : "Page 4",
-            "class" : ""
-        },
-        5: {
-            "href" : "#",
-            "title" : "Sample Page",
-            "text" : "Page 5",
-            "class" : ""
-        },
-        6: {
-            "href" : "#",
-            "title" : "Sample Page",
-            "text" : "Page 6",
+            "href" : "#/about",
+            "title" : "About",
+            "text" : "About",
             "class" : ""
         }
         
