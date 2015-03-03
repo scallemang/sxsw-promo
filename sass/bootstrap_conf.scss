@@ -1,0 +1,44 @@
+@import 'variables';
+//
+// This should be use to alter bootstrap SASS variables instead of overriding css declarations
+// Additional modifications should be added to separate files in components/
+//
+
+
+
+// Typography
+$font-family-sans-serif: $base-font;
+$font-family-serif: $base-font;
+
+// Container sizes
+$container-large-desktop: 1024px;
+
+// Navbar (further configuration in components/_navbar.scss)
+$navbar-default-bg: #fff;
+
+// Forms
+$input-border-focus: $ui-blue;
+
+// Buttons
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $ui-blue;
+$btn-primary-border:             darken($ui-blue, 5%);
+
+$btn-info-color:                 #fff !default;
+$btn-info-bg:                    $ui-blue;
+$btn-info-border:                darken($ui-blue, 5%);
+
+$btn-success-color:              #fff !default;
+$btn-success-bg:                 $ui-green;
+$btn-success-border:             darken($ui-green, 5%);
+
+$btn-default-color:              #fff !default;
+$btn-default-bg:                 $grey-lighter6;
+$btn-default-border:             $grey-lighter;
+
+
+
+// Finally we import bootstrap
+@import 'synbiota';
+@import 'fonts';

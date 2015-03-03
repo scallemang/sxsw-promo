@@ -1,0 +1,69 @@
+// Colors
+$grey:            #464852;
+$grey-darker:     #313236;
+$grey-lighter:    lighten($grey, 5%);
+$grey-lighter2:   lighten($grey, 10%);
+$grey-lighter3:   lighten($grey, 15%);
+$grey-lighter4:   lighten($grey, 20%);
+$grey-lighter5:   lighten($grey, 25%);
+$grey-lighter6:   lighten($grey, 30%);
+$grey-lighter7:   lighten($grey, 45%);
+
+$light:           #ff6633;
+
+$main:            #ff6633;
+$main-darker:     darken($main, 20%);
+$main-darker2:    darken($main, 30%);
+$main-lighter:    lighten($main, 20%);
+$main-lighter2:   lighten($main, 30%);
+
+$red:             #ef0000;
+$red-lighter:     lighten($red, 27%);
+$red-lighter:     lighten($red, 45%);
+$red-lighter2:    lighten($red, 50%);
+
+$green:           green;
+$green-lighter:   lighten($green, 62%);
+$green-lighter2:  lighten($green, 72%);
+
+$brand-blue:      #2EA9E0;
+$brand-pink:      #E7287A;
+$brand-green:     #5FBC9B;
+
+$ui-blue:         #2FAADB;
+$ui-blue-dark:    #268db5;
+$ui-blue-light:   #edf8fb;
+
+$ui-blue-secondary: #618491;
+
+$ui-pink:         #da4a89;
+$ui-pink-dark:    #ce367c;
+$ui-pink-light:   #fcedf3;
+
+$ui-green:        #5fbc9b;
+$ui-green-dark:   #54b493;
+$ui-green-light:  #f2f9f6;
+
+$ui-lightblue:    #edf6fb;
+
+$ui-secondary1:   #FF993F;
+$ui-secondary2:   #5700BF;
+
+$ui-grey-light:   #eff0f0;
+$ui-grey:         #626871;
+$ui-grey-dark:    #4b5056;
+$ui-gold:         #faa326;
+
+$ui-separator:    #e2f1ec;
+$ui-separator-light: #e9f2f7;
+$navbar-brand-color: #3e3f41;
+
+// Fonts
+$base-font:       'proxima', 'Helvetica', Sans-serif;
+$base-font-bold:  'proxima_bold', 'Helvetica', Sans-serif;
+$base-font-light:  'proxima_light', 'Helvetica', Sans-serif;
+
+// Footer
+$footer-background-color: #2d2d2d;
+$footer-color: #a8a8a8;
+$footer-height: 35px;
