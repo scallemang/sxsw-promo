@@ -10,5 +10,13 @@ angular.module('myApp', [
 
 
 $( document ).ready( function() {
-    $( '#myModal' ).modal( 'toggle' );
+    
+    if(!$.cookie('modal')) {
+        $( '#myModal' ).modal( 'toggle' );
+    }
+
+    $('#myModal').on('hidden.bs.modal', function (e) {
+        $.cookie('modal', 'isSet', { expires: 7 });
+    })
+
 });
