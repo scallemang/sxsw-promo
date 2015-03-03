@@ -1,37 +1,25 @@
-<div class="row">
-    <div class="large-12 columns top-bar very-top-bar">
-        <section class="top-bar-section">
-            <ul class="right">
-                <li>design.build.grow<img src="img/design-build-grow-icon.png" alt=""></li>
-            </ul>
-        </section>
+<nav class="navbar navbar-default navbar-fixed-top" ng-controller="TopperCtrl">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Synbiota</a>
     </div>
-</div>
-<div class="row" ng-controller="TopperCtrl">
-    <div class="large-12 columns">
-        <nav class="top-bar" data-topbar="">
-            <ul class="title-area">
-                <li class="name">
-                    <h1>
-                        <a href="#">Synbiota</a>
-                    </h1>
-                </li>
-                <li class="toggle-topbar menu-icon">
-                    <a href="#"><span>menu</span></a>
-                </li>
-            </ul>
-            <section class="top-bar-section">            
-                <ul class="left">
-                    <li ng-repeat="item in nav">
-                        <a href="{{item.href}}" 
-                        title="{{item.title}}"
-                        class="{{item.class}}">{{item.text}}</a>
-                    </li>
-                </ul>
-                <ul class="right">
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </section>
-        </nav>
-    </div>
-</div>
+    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+      <ul class="nav navbar-nav">
+        <li><a href="/method">Method</a></li>
+        <li><a href="/standard">Standard</a></li>
+        <li><a href="/dna-mrkt">Dna_Mrkt</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../navbar/">Login</a></li>
+        <li><a href="../navbar-fixed-top/">Sign Up</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>

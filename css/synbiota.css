@@ -1,177 +1,165 @@
-.top-bar .row {
-	max-width: 62.5rem;
+/* line 1, ../sass/synbiota.scss */
+body {
+  padding-top: 70px;
 }
-
-.top-bar,
-.top-bar *,
-.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-	background-color: white !important;
-	background: white !important;
-	color: #222 !important;
+/* line 3, ../sass/synbiota.scss */
+body a {
+  color: #25AAE1;
+  font-weight: bold;
 }
-
-.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-	font-weight: bold;
+/* line 6, ../sass/synbiota.scss */
+body a :hover {
+  color: #1A8BB9;
 }
-
-.top-bar .name h1 {
-	line-height: 2.2125rem;
-	font-size: 1.625rem;
+/* line 12, ../sass/synbiota.scss */
+body .navbar,
+body .navbar-default .navbar-brand,
+body .navbar-default .navbar-nav > li > a,
+body .navbar .name h1 a, body .navbar .name h2 a, body .navbar .name h3 a, body .navbar .name h4 a, body .navbar .name p a, body .navbar .name span a {
+  background-color: white !important;
+  background: white !important;
+  color: #222 !important;
 }
-
-.top-bar section ul li a {
-	text-transform: uppercase;
+/* line 19, ../sass/synbiota.scss */
+body .navbar .navbar-brand,
+body .navbar-default .navbar-brand .navbar-brand,
+body .navbar-default .navbar-nav > li > a .navbar-brand,
+body .navbar .name h1 a .navbar-brand, body .navbar .name h2 a .navbar-brand, body .navbar .name h3 a .navbar-brand, body .navbar .name h4 a .navbar-brand, body .navbar .name p a .navbar-brand, body .navbar .name span a .navbar-brand {
+  font-weight: bold;
 }
-
-.very-top-bar {
-	height: auto;
+/* line 24, ../sass/synbiota.scss */
+body ul.nav.navbar-nav li a {
+  text-transform: uppercase;
 }
-
-.very-top-bar ul li {
-	color: #FFFFFF;
-	padding: 12px 0 12px 0;
-	padding-left: 0.9375rem;
-	padding-right: 0.9375rem;
-	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-	font-size: 1.5rem;
-	font-weight: bold;
-	text-transform: none;
+/* line 28, ../sass/synbiota.scss */
+body .navbar-default {
+  box-shadow: none;
+  border-bottom: none;
 }
-
-.panel.btn-huge {
-	border: 2px solid #333;
-	background: white;
-	padding: 50px 0;
-	text-align: center;
-	margin: 15px 0;
+/* line 34, ../sass/synbiota.scss */
+body .jumbotron {
+  margin-top: 30px;
+  color: #FFF;
 }
-
-.panel.btn-huge h3 {
-	text-transform: uppercase;
+/* line 39, ../sass/synbiota.scss */
+body .jumbotron.dark-purple {
+  background-color: #262262;
 }
-
-.panel.footer-panel {
-	background: #222;
-	margin-top: 1rem;
-	margin-bottom: 0;
-	border: none;
+/* line 43, ../sass/synbiota.scss */
+body .jumbotron-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
-.panel.footer-panel .row {
-	max-width: 100%;
+/* line 49, ../sass/synbiota.scss */
+body .jumbotron-group .purple {
+  background-color: #60297C;
 }
-
-.panel.footer-panel h1, .panel.footer-panel h2, .panel.footer-panel.footer-panel.footer-panel h3, .panel.footer-panel h4, .panel.footer-panel h5, .panel.footer-panel h6, .panel.footer-panel p, .panel.footer-panel li, .panel.footer-panel dl {
-	color: #fefefe;
+/* line 52, ../sass/synbiota.scss */
+body .jumbotron-group .pink {
+  background-color: #EB1979;
 }
-
-.panel.footer-panel h5,
-.panel.footer-panel h6 {
-	text-transform: uppercase;
-	letter-spacing: 1px;
+/* line 55, ../sass/synbiota.scss */
+body .jumbotron-group .light-blue {
+  background-color: #25AAE1;
 }
-
-.panel.footer-panel ul {
-	margin-left: 0;
+/* line 58, ../sass/synbiota.scss */
+body .jumbotron-group .fern {
+  background-color: #62BD83;
 }
-
-.panel.footer-panel ul li {
-	list-style-type: none;
+/* line 61, ../sass/synbiota.scss */
+body .jumbotron-group .green {
+  background-color: #22AE50;
 }
-
-nav.bottom-bar ul {
-	display: inline-block;
+/* line 64, ../sass/synbiota.scss */
+body .jumbotron-group .jumbotron {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: inherit;
 }
-
-nav.bottom-bar ul li {
-	float: left;
+/* line 72, ../sass/synbiota.scss */
+body .jumbotron .intro {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.25;
 }
-
-nav.bottom-bar ul li > a {
-	width: 100%;
+/* line 77, ../sass/synbiota.scss */
+body .jumbotron.footer {
+  background: #222;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 0;
+  border: none;
 }
-
-nav.bottom-bar ul li > a,
-nav.bottom-bar p {
-	display: block;
-	color: #FFFFFF;
-	padding: 12px 0 12px 0;
-	padding-left: 15px;
-	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	text-transform: none;
+/* line 83, ../sass/synbiota.scss */
+body .jumbotron.footer .row {
+  max-width: 100%;
 }
-
-nav.bottom-bar ul li:first-of-type > a {
-	padding-left: 0;
+/* line 87, ../sass/synbiota.scss */
+body .jumbotron.footer h1, body .jumbotron.footer h2, body .jumbotron.footer h3, body .jumbotron.footer h4, body .jumbotron.footer h5, body .jumbotron.footer h6, body .jumbotron.footer p, body .jumbotron.footer .panel.footer-panel li, body .jumbotron.footer dl {
+  color: #fefefe;
 }
-
-.header-center {
-	text-align: center;
-	margin: 80px auto 60px;
+/* line 90, ../sass/synbiota.scss */
+body .jumbotron.footer h5, body .jumbotron.footer h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-
-.header-center h1 {
-	line-height: 1;
+/* line 94, ../sass/synbiota.scss */
+body .jumbotron.footer ul {
+  margin-left: 0;
+  padding: 0;
 }
-
-.header-center h4 {
-	text-transform: uppercase;
-	font-weight: 200;
+/* line 97, ../sass/synbiota.scss */
+body .jumbotron.footer ul li {
+  list-style-type: none;
 }
-
-.button.rounded {
-	border-radius: 7px;
+/* line 101, ../sass/synbiota.scss */
+body .jumbotron.footer p {
+  font-size: 14px;
 }
-
-input[type="text"] {
-	padding: 20px 10px;
+/* line 107, ../sass/synbiota.scss */
+body .navbar-footer .bottom-bar ul {
+  display: inline-block;
 }
-
-.centered {
-	text-align: center;
+/* line 110, ../sass/synbiota.scss */
+body .navbar-footer .bottom-bar ul li {
+  float: left;
 }
-
-.padded h1, .padded h2, .padded h3, .padded h4, .padded h5, .padded h6, .padded p {
-	line-height: 3;
-	margin-bottom: 0;
+/* line 113, ../sass/synbiota.scss */
+body .navbar-footer .bottom-bar ul li > a {
+  width: 100%;
 }
-
-p.large {
-	font-size: 1.3rem;
+/* line 116, ../sass/synbiota.scss */
+body .navbar-footer .bottom-bar ul li > a,
+body .navbar-footer .bottom-bar p {
+  display: block;
+  color: #FFFFFF;
+  padding: 12px 0 12px 0;
+  padding-left: 15px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: none;
 }
-
-fieldset {
-	margin: 0;
-	margin-bottom: 1.125rem;
+/* line 126, ../sass/synbiota.scss */
+body .navbar-footer .bottom-bar ul li:first-of-type > a {
+  padding-left: 0;
 }
-
-fieldset p {
-	font-size: 1rem;
+/* line 133, ../sass/synbiota.scss */
+body #myModal .modal-header {
+  border-bottom: none;
 }
-
-.row.bordered {
-	border: 2px solid #777;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	margin-top: 1.5rem;
-	margin-bottom: 3rem;
+/* line 136, ../sass/synbiota.scss */
+body #myModal .btn-wide {
+  padding: 6px 24px;
 }
-
-.row.bordered h3,
-h3.bolded {
-	font-weight: bold;
+/* line 139, ../sass/synbiota.scss */
+body #myModal .modal-title {
+  text-transform: uppercase;
 }
-
-h3.price {
-	text-align: right;
+/* line 142, ../sass/synbiota.scss */
+body #myModal .modal-content {
+  padding: 24px;
+  border-radius: 0;
 }
-
-.catalogue img {
-	border: 2px solid #777;
-	margin-bottom: 1rem;
-}
-
-.catalogue [class*="column"] + [class*="column"]:last-child {
-	float: left;
+/* line 147, ../sass/synbiota.scss */
+body #myModal input {
+  margin: 24px 0;
 }
