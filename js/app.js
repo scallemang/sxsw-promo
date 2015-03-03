@@ -6,4 +6,9 @@ angular.module('myApp', [
   //Register component modules
   'myApp.topper',
   'myApp.foot'
-]);
+])
+
+
+$( document ).ready( function() {
+    $( '#myModal' ).modal( 'toggle' );
+});
