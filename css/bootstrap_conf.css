@@ -51,47 +51,57 @@ body .jumbotron {
 body .container .jumbotron, body .container-fluid .jumbotron {
   border-radius: 0;
 }
-/* line 51, ../sass/_synbiota.scss */
+/* line 52, ../sass/_synbiota.scss */
+body .page-header-icon img {
+  margin-right: 20px;
+}
+/* line 56, ../sass/_synbiota.scss */
+body .page-header-icon h2 {
+  font-size: 25px;
+  margin-top: 23px;
+  margin-bottom: 15px;
+}
+/* line 63, ../sass/_synbiota.scss */
 body .jumbotron.dark-purple {
   background-color: #262262;
 }
-/* line 55, ../sass/_synbiota.scss */
+/* line 67, ../sass/_synbiota.scss */
 body .jumbotron-group {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 61, ../sass/_synbiota.scss */
+/* line 73, ../sass/_synbiota.scss */
 body .jumbotron-group .purple {
   background-color: #60297C;
 }
-/* line 64, ../sass/_synbiota.scss */
+/* line 76, ../sass/_synbiota.scss */
 body .jumbotron-group .pink {
   background-color: #EB1979;
 }
-/* line 67, ../sass/_synbiota.scss */
+/* line 79, ../sass/_synbiota.scss */
 body .jumbotron-group .light-blue {
   background-color: #25AAE1;
 }
-/* line 70, ../sass/_synbiota.scss */
+/* line 82, ../sass/_synbiota.scss */
 body .jumbotron-group .fern {
   background-color: #62BD83;
 }
-/* line 73, ../sass/_synbiota.scss */
+/* line 85, ../sass/_synbiota.scss */
 body .jumbotron-group .green {
   background-color: #22AE50;
 }
-/* line 76, ../sass/_synbiota.scss */
+/* line 88, ../sass/_synbiota.scss */
 body .jumbotron-group .jumbotron {
   margin-top: 0;
   margin-bottom: 0;
   background-color: inherit;
 }
-/* line 84, ../sass/_synbiota.scss */
+/* line 96, ../sass/_synbiota.scss */
 body .jumbotron .intro {
   font-family: 'Open Sans Condensed', sans-serif;
   line-height: 1.25;
 }
-/* line 89, ../sass/_synbiota.scss */
+/* line 101, ../sass/_synbiota.scss */
 body .jumbotron.footer {
   background: #222;
   color: #fff;
@@ -99,45 +109,45 @@ body .jumbotron.footer {
   margin-bottom: 0;
   border: none;
 }
-/* line 95, ../sass/_synbiota.scss */
+/* line 107, ../sass/_synbiota.scss */
 body .jumbotron.footer .row {
   max-width: 100%;
 }
-/* line 99, ../sass/_synbiota.scss */
+/* line 111, ../sass/_synbiota.scss */
 body .jumbotron.footer h1, body .jumbotron.footer h2, body .jumbotron.footer h3, body .jumbotron.footer h4, body .jumbotron.footer h5, body .jumbotron.footer h6, body .jumbotron.footer p, body .jumbotron.footer .panel.footer-panel li, body .jumbotron.footer dl {
   color: #fefefe;
 }
-/* line 102, ../sass/_synbiota.scss */
+/* line 114, ../sass/_synbiota.scss */
 body .jumbotron.footer h5, body .jumbotron.footer h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 106, ../sass/_synbiota.scss */
+/* line 118, ../sass/_synbiota.scss */
 body .jumbotron.footer ul {
   margin-left: 0;
   padding: 0;
 }
-/* line 109, ../sass/_synbiota.scss */
+/* line 121, ../sass/_synbiota.scss */
 body .jumbotron.footer ul li {
   list-style-type: none;
 }
-/* line 113, ../sass/_synbiota.scss */
+/* line 125, ../sass/_synbiota.scss */
 body .jumbotron.footer p {
   font-size: 14px;
 }
-/* line 119, ../sass/_synbiota.scss */
+/* line 131, ../sass/_synbiota.scss */
 body .navbar-footer .bottom-bar ul {
   display: inline-block;
 }
-/* line 122, ../sass/_synbiota.scss */
+/* line 134, ../sass/_synbiota.scss */
 body .navbar-footer .bottom-bar ul li {
   float: left;
 }
-/* line 125, ../sass/_synbiota.scss */
+/* line 137, ../sass/_synbiota.scss */
 body .navbar-footer .bottom-bar ul li > a {
   width: 100%;
 }
-/* line 128, ../sass/_synbiota.scss */
+/* line 140, ../sass/_synbiota.scss */
 body .navbar-footer .bottom-bar ul li > a,
 body .navbar-footer .bottom-bar p {
   display: block;
@@ -148,28 +158,37 @@ body .navbar-footer .bottom-bar p {
   font-weight: normal;
   text-transform: none;
 }
-/* line 138, ../sass/_synbiota.scss */
+/* line 150, ../sass/_synbiota.scss */
 body .navbar-footer .bottom-bar ul li:first-of-type > a {
   padding-left: 0;
 }
-/* line 145, ../sass/_synbiota.scss */
+/* line 156, ../sass/_synbiota.scss */
+body .platform-bubbles h3 {
+  display: inline-block;
+  border: 2px solid #25AAE1;
+  padding: 63px 0;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+/* line 168, ../sass/_synbiota.scss */
 body #myModal .modal-header {
   border-bottom: none;
 }
-/* line 148, ../sass/_synbiota.scss */
+/* line 171, ../sass/_synbiota.scss */
 body #myModal .btn-wide {
   padding: 6px 24px;
 }
-/* line 151, ../sass/_synbiota.scss */
+/* line 174, ../sass/_synbiota.scss */
 body #myModal .modal-title {
   text-transform: uppercase;
 }
-/* line 154, ../sass/_synbiota.scss */
+/* line 177, ../sass/_synbiota.scss */
 body #myModal .modal-content {
   padding: 24px;
   border-radius: 0;
 }
-/* line 159, ../sass/_synbiota.scss */
+/* line 182, ../sass/_synbiota.scss */
 body #myModal input {
   margin: 24px 0;
 }
