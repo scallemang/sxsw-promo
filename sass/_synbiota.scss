@@ -35,6 +35,12 @@ body {
     	margin-top: 30px;
     	color: #FFF;
     }
+
+    .container, .container-fluid {
+        .jumbotron {
+            border-radius: 0;
+        }
+    }
     
     .jumbotron.dark-purple {
     	background-color: #262262
