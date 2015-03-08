@@ -37,8 +37,10 @@ $btn-default-color:              #fff !default;
 $btn-default-bg:                 $grey-lighter6;
 $btn-default-border:             $grey-lighter;
 
-
-
 // Finally we import bootstrap
-@import 'synbiota';
 @import 'fonts';
+@import 'base';
+@import 'index';
+@import 'build';
+@import 'standard';
+@import 'about';
