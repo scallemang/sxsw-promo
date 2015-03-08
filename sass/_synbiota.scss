@@ -1,5 +1,6 @@
 body {
 	padding-top: 70px;
+	font-family: $base-font;
 
     a {
     	color: #25AAE1;
@@ -11,7 +12,7 @@ body {
     }
 
     p.p-highlight {
-        font-family: 'Open Sans Condensed', sans-serif;
+        //font-family: 'Open Sans Condensed', sans-serif;
         font-size: 30px;
         line-heigh: 1.25;
     }
@@ -101,7 +102,6 @@ body {
     }    
    
     .jumbotron .intro {
-    	font-family: 'Open Sans Condensed', sans-serif;
     	line-height: 1.25;
     }    
     
@@ -150,7 +150,6 @@ body {
         	color: #FFFFFF;
         	padding: 12px 0 12px 0;
         	padding-left: 15px;
-        	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
         	font-weight: normal;
         	text-transform: none;
         }
