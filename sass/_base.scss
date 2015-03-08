@@ -1,6 +1,6 @@
 body {
 	padding-top: 70px;
-	font-family: $base-font;
+	font-family: $base-font-light;
 
     a {
     	color: #25AAE1;
@@ -42,17 +42,17 @@ body {
         background-color: $ui-green;
     }
 
-    .purple-bg {
-	    background-color: $ui-purple;
+    .purple {
+	    color: $ui-purple;
     }
-    .pink-bg {
-    	background-color: $ui-pink;
+    .pink {
+    	color: $ui-pink;
     }
-    .blue-bg {
-        background-color: $ui-blue;
+    .blue {
+        color: $ui-blue;
     }
-    .green-bg {
-        background-color: $ui-green;
+    .green {
+        color: $ui-green;
     }
     
     .navbar,
