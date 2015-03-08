@@ -21,10 +21,11 @@ body {
         line-heigh: 1.25;
     }
 
-    .row-border {
+    .border {
         border: 2px solid #333;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     
     .navbar,
@@ -56,6 +57,17 @@ body {
     	border-bottom: none;
     }
 
+    .btn-primary,
+    .btn-primary:focus {
+        background: $ui-pink;
+        border-color: $ui-pink-dark;
+    }
+
+    .btn-primary:hover {
+        background: $ui-pink-dark;
+        border-color: $ui-pink-dark;
+    }
+
     .row-glossary {
         margin-top: 20px;
 
@@ -73,11 +85,19 @@ body {
             margin-top: 8px;
         }
     }
+
+    h5, h6 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
     
     //* Jumbotron */
     .jumbotron {
     	margin-top: 30px;
     	color: #FFF;
+        p {
+            font-size: 14px;
+        }
     }
 
     .container, .container-fluid {
@@ -147,10 +167,6 @@ body {
         
         h1, h2, h3, h4, h5, h6, p, .panel.footer-panel li, dl {
         	color: #fefefe;
-        }
-        h5, h6 {
-        	text-transform: uppercase;
-        	letter-spacing: 1px;
         }
         
         p {
