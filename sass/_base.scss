@@ -11,11 +11,14 @@ body {
 
     }
 
+<<<<<<< HEAD
     .condensed {
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 200;
     }
 
+=======
+>>>>>>> 8ff898cf88f09530ccf19e8534ee0f4943941c6e
     p.p-highlight {
         font-size: 30px;
         line-heigh: 1.25;
@@ -95,6 +98,19 @@ body {
     .btn-primary:hover {
         background: $ui-pink-dark;
         border-color: $ui-pink-dark;
+    }
+
+    .btn-secondary,
+    .btn-secondary:focus {
+        background: $ui-blue;
+        border-color: $ui-blue-dark;
+        color: $white;
+    }
+
+    .btn-secondary:hover {
+        background: $ui-blue-dark;
+        border-color: $ui-blue-dark;
+        color: $white;
     }
 
     .row-glossary {
