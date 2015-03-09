@@ -11,6 +11,30 @@ body {
         }
     }
 
+    .btn {
+        padding: 0;
+    }
+
+    .btn,
+    .btn:hover,
+    .btn:focus {
+        a {
+            color: $white;
+            text-decoration: none;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-left: 12px;
+            padding-right: 12px;
+            width: 100%;
+            display: block;
+        }
+
+        h5 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
     .col-no-padding {
     	padding: 0;
     }

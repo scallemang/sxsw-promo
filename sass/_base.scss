@@ -11,14 +11,6 @@ body {
 
     }
 
-<<<<<<< HEAD
-    .condensed {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 200;
-    }
-
-=======
->>>>>>> 8ff898cf88f09530ccf19e8534ee0f4943941c6e
     p.p-highlight {
         font-size: 30px;
         line-heigh: 1.25;
@@ -87,6 +79,24 @@ body {
     .navbar-default {
     	box-shadow: none;
     	border-bottom: none;
+    }
+
+    .btn,
+    .btn:hover,
+    .btn:focus {
+        a {
+            color: $white;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            display: block;
+        }
+
+        h5 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
 
     .btn-primary,
