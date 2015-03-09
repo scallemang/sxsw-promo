@@ -11,13 +11,13 @@ body {
         }
     }
 
-    .btn {
+    .btn.btn-no-padding {
         padding: 0;
     }
 
-    .btn,
-    .btn:hover,
-    .btn:focus {
+    .btn.btn-no-padding,
+    .btn.btn-no-padding:hover,
+    .btn.btn-no-padding:focus {
         a {
             color: $white;
             text-decoration: none;
