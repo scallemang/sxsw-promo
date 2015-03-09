@@ -81,6 +81,24 @@ body {
     	border-bottom: none;
     }
 
+    .btn,
+    .btn:hover,
+    .btn:focus {
+        a {
+            color: $white;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            display: block;
+        }
+
+        h5 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
     .btn-primary,
     .btn-primary:focus {
         background: $ui-pink;
@@ -142,18 +160,6 @@ body {
             border-radius: 0;
         }
     }
-
-    .page-header-icon {
-        img {
-            margin-right: 20px;
-        }
-
-        h2 {
-            font-size: 25px;
-            margin-top: 23px;
-            margin-bottom: 15px;
-        }
-    }
     
     .jumbotron.dark-purple {
     	background-color: #262262
@@ -208,17 +214,6 @@ body {
         }
         .bottom-bar ul li:first-of-type > a {
         	padding-left: 0;
-        }
-    }
-
-    .platform-bubbles {
-        h3 {
-              display: inline-block;
-              border: 2px solid #25AAE1;
-              padding: 63px 0;
-              height: 150px;
-              width: 150px;
-              border-radius: 50%;
         }
     }
 
