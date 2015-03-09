@@ -369,50 +369,6 @@ body section#build .checkbox label input {
   margin-top: 1px;
 }
 
-/* line 3, ../sass/_platform.scss */
-body .platform-bubbles h3 {
-  display: inline-block;
-  padding: 38px 0;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  line-height: 1;
-  background: #423bad;
-}
-/* line 14, ../sass/_platform.scss */
-body .btn {
-  padding: 0;
-}
-/* line 21, ../sass/_platform.scss */
-body .btn a,
-body .btn:hover a,
-body .btn:focus a {
-  color: #ffffff;
-  text-decoration: none;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-left: 12px;
-  padding-right: 12px;
-  width: 100%;
-  display: block;
-}
-/* line 32, ../sass/_platform.scss */
-body .btn h5,
-body .btn:hover h5,
-body .btn:focus h5 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-/* line 38, ../sass/_platform.scss */
-body .col-no-padding {
-  padding: 0;
-}
-/* line 42, ../sass/_platform.scss */
-body .glyphicon-lg {
-  font-size: 60px;
-  padding-top: 36px;
-}
-
 /* line 3, ../sass/_about.scss */
 body section#about h1 {
   font-family: "proxima_bold", "Helvetica", Sans-serif;
@@ -478,4 +434,48 @@ body section#about #social .icons ul li a.twitter {
 /* line 50, ../sass/_about.scss */
 body section#about #social .icons ul li a.twitter:hover {
   background-position: -175px -42px;
+}
+
+/* line 3, ../sass/_platform.scss */
+body .platform-bubbles h3 {
+  display: inline-block;
+  padding: 38px 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  line-height: 1;
+  background: #423bad;
+}
+/* line 14, ../sass/_platform.scss */
+body .btn.btn-no-padding {
+  padding: 0;
+}
+/* line 21, ../sass/_platform.scss */
+body .btn.btn-no-padding a,
+body .btn.btn-no-padding:hover a,
+body .btn.btn-no-padding:focus a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+  display: block;
+}
+/* line 32, ../sass/_platform.scss */
+body .btn.btn-no-padding h5,
+body .btn.btn-no-padding:hover h5,
+body .btn.btn-no-padding:focus h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 38, ../sass/_platform.scss */
+body .col-no-padding {
+  padding: 0;
+}
+/* line 42, ../sass/_platform.scss */
+body .glyphicon-lg {
+  font-size: 60px;
+  padding-top: 36px;
 }
