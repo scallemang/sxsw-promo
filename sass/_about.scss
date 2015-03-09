@@ -1,3 +1,59 @@
 body {
-	
+	section#about {
+    	h1 {
+        	font-family: $base-font-bold
+    	}
+    	
+    	p.p-highlight {
+        font-size: 18px;
+        line-height: 1.25;
+        margin: 20px 0;
+        padding: 20px;
+        border: 2px solid $grey-lighter8;
+        border-width: 2px 0;
+        text-align: center;
+        color: $grey-lighter;
+        }
+        #social {
+            text-align: center;
+            font-size: 21px;
+            .icons ul { 
+                padding: 0; 
+                li {
+                    display: inline;
+                    float: left;
+                    a {
+                        background: url("/img/social.png") no-repeat scroll 0 0 transparent;
+                        display: block;
+                        height: 41px;
+                        margin: 0 10px;
+                        text-indent: -100000px;
+                        width: 43px;
+                        &:hover {
+                            background-position: 0 -42px;
+                        }
+                    }
+                    
+                    a.linkedin  { background-position: -58px 0px;
+                            &:hover {
+                            background-position: -58px -42px;
+                        }
+                    }
+                    
+                    a.facebook  { background-position: -116px 0px;
+                            &:hover {
+                            background-position: -116px -42px;
+                        }
+                    }
+                    
+                    a.twitter  { background-position: -175px 0px;
+                            &:hover {
+                            background-position: -175px -42px;
+                        }
+                    }
+                }
+            }
+        }
+        
+	}
 }

@@ -36,7 +36,7 @@ body a :hover {
 /* line 14, ../sass/_base.scss */
 body p.p-highlight {
   font-size: 30px;
-  line-heigh: 1.25;
+  line-height: 1.25;
 }
 /* line 19, ../sass/_base.scss */
 body .border {
@@ -951,4 +951,71 @@ body .circles > div > div > div > div {
   body .circles > div {
     padding: 12.5%;
   }
+}
+
+/* line 3, ../sass/_about.scss */
+body section#about h1 {
+  font-family: "proxima_bold", "Helvetica", Sans-serif;
+}
+/* line 7, ../sass/_about.scss */
+body section#about p.p-highlight {
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #f1f1f3;
+  border-width: 2px 0;
+  text-align: center;
+  color: #525460;
+}
+/* line 17, ../sass/_about.scss */
+body section#about #social {
+  text-align: center;
+  font-size: 21px;
+}
+/* line 20, ../sass/_about.scss */
+body section#about #social .icons ul {
+  padding: 0;
+}
+/* line 22, ../sass/_about.scss */
+body section#about #social .icons ul li {
+  display: inline;
+  float: left;
+}
+/* line 25, ../sass/_about.scss */
+body section#about #social .icons ul li a {
+  background: url("/img/social.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 41px;
+  margin: 0 10px;
+  text-indent: -100000px;
+  width: 43px;
+}
+/* line 32, ../sass/_about.scss */
+body section#about #social .icons ul li a:hover {
+  background-position: 0 -42px;
+}
+/* line 37, ../sass/_about.scss */
+body section#about #social .icons ul li a.linkedin {
+  background-position: -58px 0px;
+}
+/* line 38, ../sass/_about.scss */
+body section#about #social .icons ul li a.linkedin:hover {
+  background-position: -58px -42px;
+}
+/* line 43, ../sass/_about.scss */
+body section#about #social .icons ul li a.facebook {
+  background-position: -116px 0px;
+}
+/* line 44, ../sass/_about.scss */
+body section#about #social .icons ul li a.facebook:hover {
+  background-position: -116px -42px;
+}
+/* line 49, ../sass/_about.scss */
+body section#about #social .icons ul li a.twitter {
+  background-position: -175px 0px;
+}
+/* line 50, ../sass/_about.scss */
+body section#about #social .icons ul li a.twitter:hover {
+  background-position: -175px -42px;
 }
