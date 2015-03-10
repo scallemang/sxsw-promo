@@ -13,4 +13,46 @@ body {
     	color: $ui-blue-dark;
         }
     }
+
+    #myModal {
+        h2 {
+            font-family: "Open Sans Condensed";
+            font-weight: bold;
+            text-transform: uppercase;
+            span {
+                color: $ui-purple-red;
+            }
+        }
+
+        button {
+            color: white;
+            text-transform: uppercase;
+        }
+
+        input {
+            background: #eee;
+            border: none;
+        }
+
+        .btn.btn-wide {
+            padding: 6px 48px;
+        }
+
+        button:hover {
+            color: white;
+        }
+    }
+
+    #videoModal {
+        .modal-body {
+            padding: 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .modal-dialog {
+            width: 562px;
+            margin: 30px auto;
+        }
+    }
 }
