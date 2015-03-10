@@ -3,12 +3,11 @@ body {
 	font-family: $base-font-light;
 
     a {
-    	color: #25AAE1;
+    	color: $a;
     	font-weight: bold;
     	:hover {
-    	color: #1A8BB9;
+    	color: $aHover;
         }
-
     }
 
     p.p-highlight {
@@ -17,7 +16,7 @@ body {
     }
 
     .border {
-        border: 2px solid #333;
+        border: 2px solid $grey-default;
         padding: 25px;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -56,8 +55,8 @@ body {
     .navbar-default .navbar-brand,
     .navbar-default .navbar-nav>li>a,
     .navbar .name h1 a, .navbar .name h2 a, .navbar .name h3 a, .navbar .name h4 a, .navbar .name p a, .navbar .name span a {
-    	background-color: white !important;
-    	background: white !important;
+    	background-color: $white !important;
+    	background: $white !important;
     	color: #222 !important;
     	.navbar-brand {
     	    font-weight: bold;
@@ -162,7 +161,7 @@ body {
     }
     
     .jumbotron.dark-purple {
-    	background-color: #262262
+    	background-color: $ui-purple-dark;
     }
     
     .jumbotron-group {

@@ -58,11 +58,17 @@
 							<img src="img/arch-upper.png" class="img-responsive center-block">
 						</div>
 						<div class="col-md-4 hidden-sm hidden-xs pull-right">
-							<h3 class="disable-margin-padding">What will you build?</h3>
-							<p>pre-order now our<br>
-							<strong>DNA Tinker Studio</strong><br>
-							on <img src="img/indiegogo-logo.jpg" height="20px;" width="auto" alt="Indiegogo logo"> now!</p>
-							<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal">Watch Video</button>
+							<a id="indiegogo" 
+                                href="http://igg.me/at/DNATinkerStudio" 
+                                target="_blank"
+                                title="What will you build? pre-order now our DNA Tinker Studio on Indiegogo now!">
+    							
+    							<h3 class="disable-margin-padding">What will you build?</h3>
+    							<p>pre-order now our<br>
+    							<strong>DNA Tinker Studio</strong><br>
+    							on <img src="img/indiegogo-logo.jpg" height="20px;" width="auto" alt="Indiegogo logo"> now!</p>
+							</a>
+							<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#videoModal">Watch Video</button>
 						</div>
 					</div>
 					<div class="row">
@@ -173,7 +179,7 @@
 			
 			<!-- Small modal -->
 
-            <div id="myModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div id="welcomeModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-md">
                 <div class="modal-content text-center">
                   <div class="modal-header">
@@ -181,12 +187,25 @@
                     <h4 class="modal-title" id="mySmallModalLabel">Keep in Touch</h4>
                   </div>
                   <div class="modal-body ">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/c3PGZuS94YU" frameborder="0" allowfullscreen class="img-responsive hidden-xs hidden-sm" style="height:315px;"></iframe>
                     <p>Sign up for our newsletter for info on new products, exclusive offers, &amp; awesome project ideas.</p>
                     <form>
                       <input type="text" class="form-control" aria-label="...">
                     </form>
                     <button class="btn btn-primary btn-wide" type="button">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="videoModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-md">
+                <div class="modal-content text-center">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="mySmallModalLabel">Watch our video:</h4>
+                  </div>
+                  <div class="modal-body ">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/c3PGZuS94YU" frameborder="0" allowfullscreen class="img-responsive hidden-xs hidden-sm" style="height:315px;"></iframe>
                   </div>
                 </div>
               </div>
