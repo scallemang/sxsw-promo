@@ -1,5 +1,22 @@
-<header>
+<header data-ng-controller="TopperCtrl">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    
+    <div id="contactBar"
+        class="container-fluid text-center"
+        data-ng-if="rootPath">
+        <!-- this conditional block is based on window.location.pathname, in the TopperCtrl -->
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Have a question? Call us (1-87-SYNBIOTA) or 
+                    <a target="_blank" 
+                        href="mailto:https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=info@synbiota.com">email</a> us.
+                </p>
+            </div>
+        </div>
+        <!-- this conditional block is based on window.location.pathname, in the TopperCtrl -->
+    </div>
+    
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">Synbiota</a>

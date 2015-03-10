@@ -4,7 +4,15 @@ body {
         padding: 0;
         padding-bottom: 3px;
     }
-      
+    
+    #contactBar {
+        background-color: black;
+        color: $white;
+        p {
+            padding: 15px 0 10px 0;
+        }
+    }
+    
     a#indiegogo {
     	color: $grey-default;
     	font-weight: bold;
@@ -13,8 +21,13 @@ body {
     	color: $ui-blue-dark;
         }
     }
+    
+    #indexTout {
+        margin-top: 45px;
+        background: transparent url('/img/index-bg.png') 0 0 repeat scroll;
+    }
 
-    #myModal {
+    #welcomeModal {
         h2 {
             font-family: "Open Sans Condensed";
             font-weight: bold;

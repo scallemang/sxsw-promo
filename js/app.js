@@ -6,16 +6,15 @@ angular.module('myApp', [
   //Register component modules
   'myApp.topper',
   'myApp.foot'
-])
-
+]);
 
 $( document ).ready( function() {
     
     if(!$.cookie('modal')) {
-        $( '#myModal' ).modal( 'toggle' );
+        $( '#welcomeModal' ).modal( 'toggle' );
     }
 
-    $('#myModal').on('hidden.bs.modal', function (e) {
+    $('#welcomeModal').on('hidden.bs.modal', function (e) {
         $.cookie('modal', 'isSet', { expires: 7 });
     })
 
