@@ -8180,7 +8180,7 @@ body {
 @media screen and (min-width: 768px) {
   /* line 76, ../sass/main.scss */
   .container {
-    max-width: 730px;
+    max-width: 920px;
   }
 
   /* Remove the padding we set earlier */
