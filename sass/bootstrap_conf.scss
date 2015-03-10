@@ -1,8 +1,7 @@
-@import 'variables';
+@import 'main';
 //
 // This should be use to alter bootstrap SASS variables instead of overriding css declarations
 // Additional modifications should be added to separate files in components/
-//
 
 // Typography
 $font-family-sans-serif: $base-font;
@@ -36,7 +35,6 @@ $btn-default-bg:                 $grey-lighter6;
 $btn-default-border:             $grey-lighter;
 
 // Finally we import bootstrap
-@import 'fonts';
 @import 'base';
 @import 'index';
 @import 'build';
