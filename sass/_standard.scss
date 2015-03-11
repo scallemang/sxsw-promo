@@ -1,0 +1,18 @@
+body {
+	.parts-box {
+		display: inline-block;
+		padding: 5px 10px;
+	}
+	.parts-box.green {
+		border: 2px $ui-green solid;
+	}
+	.parts-box.purple-red {
+		border: 2px $ui-purple-red solid;
+	}
+	.parts-box.blue {
+		border: 2px $ui-blue solid;
+	}
+	.parts-box.pink {
+		border: 2px $ui-pink solid;
+	}
+}

@@ -8102,108 +8102,6 @@ button.close {
   src: url("../fonts/2A2AE4_3_0.eot");
   src: url("../fonts/2A2AE4_3_0.eot?font#iefix") format("embedded-opentype"), url("../fonts/2A2AE4_3_0.woff") format("woff"), url("../fonts/2A2AE4_3_0.ttf") format("truetype");
 }
-/* line 10, ../sass/main.scss */
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* Space out content a bit */
-/* line 18, ../sass/main.scss */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: "proxima", "Helvetica", Sans-serif;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 25, ../sass/main.scss */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Custom page header */
-/* line 33, ../sass/main.scss */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  /* Make the masthead heading the same height as the navigation */
-}
-/* line 37, ../sass/main.scss */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
-/* Custom page footer */
-/* line 46, ../sass/main.scss */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-/* line 52, ../sass/main.scss */
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-/* line 57, ../sass/main.scss */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-/* line 60, ../sass/main.scss */
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-/* line 67, ../sass/main.scss */
-.marketing {
-  margin: 40px 0;
-}
-/* line 69, ../sass/main.scss */
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* line 76, ../sass/main.scss */
-  .container {
-    max-width: 920px;
-  }
-
-  /* Remove the padding we set earlier */
-  /* line 81, ../sass/main.scss */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  /* line 89, ../sass/main.scss */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 94, ../sass/main.scss */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
 /* line 1, ../sass/_base.scss */
 body {
   padding-top: 70px;
@@ -8275,6 +8173,10 @@ body .green {
   color: #5fbc9b;
 }
 /* line 62, ../sass/_base.scss */
+body .purple-red {
+  color: #60297C;
+}
+/* line 66, ../sass/_base.scss */
 body .navbar,
 body .navbar-default .navbar-brand,
 body .navbar-default .navbar-nav > li > a,
@@ -8283,32 +8185,32 @@ body .navbar .name h1 a, body .navbar .name h2 a, body .navbar .name h3 a, body 
   background: #ffffff !important;
   color: #222 !important;
 }
-/* line 69, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 body .navbar .navbar-brand,
 body .navbar-default .navbar-brand .navbar-brand,
 body .navbar-default .navbar-nav > li > a .navbar-brand,
 body .navbar .name h1 a .navbar-brand, body .navbar .name h2 a .navbar-brand, body .navbar .name h3 a .navbar-brand, body .navbar .name h4 a .navbar-brand, body .navbar .name p a .navbar-brand, body .navbar .name span a .navbar-brand {
   font-weight: bold;
 }
-/* line 74, ../sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 body ul.nav.navbar-nav li a {
   text-transform: uppercase;
 }
-/* line 78, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 body ul.no-list-style {
   margin-left: 0;
   padding: 0;
 }
-/* line 81, ../sass/_base.scss */
+/* line 85, ../sass/_base.scss */
 body ul.no-list-style li {
   list-style-type: none;
 }
-/* line 86, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 body .navbar-default {
   box-shadow: none;
   border-bottom: none;
 }
-/* line 94, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 body .btn a,
 body .btn:hover a,
 body .btn:focus a {
@@ -8319,87 +8221,87 @@ body .btn:focus a {
   width: 100%;
   display: block;
 }
-/* line 103, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 body .btn h5,
 body .btn:hover h5,
 body .btn:focus h5 {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 109, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 body .btn-primary,
 body .btn-primary:focus {
   background: #da4a89;
   border-color: #ce367c;
 }
-/* line 115, ../sass/_base.scss */
+/* line 119, ../sass/_base.scss */
 body .btn-primary:hover {
   background: #ce367c;
   border-color: #ce367c;
 }
-/* line 120, ../sass/_base.scss */
+/* line 124, ../sass/_base.scss */
 body .btn-secondary,
 body .btn-secondary:focus {
   background: #2FAADB;
   border-color: #268db5;
   color: #ffffff;
 }
-/* line 127, ../sass/_base.scss */
+/* line 131, ../sass/_base.scss */
 body .btn-secondary:hover {
   background: #268db5;
   border-color: #268db5;
   color: #ffffff;
 }
-/* line 133, ../sass/_base.scss */
+/* line 137, ../sass/_base.scss */
 body .row-glossary {
   margin-top: 20px;
 }
-/* line 136, ../sass/_base.scss */
+/* line 140, ../sass/_base.scss */
 body .row-glossary h1, body .row-glossary h2, body .row-glossary h3, body .row-glossary h4, body .row-glossary h5, body .row-glossary h6 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1;
 }
-/* line 142, ../sass/_base.scss */
+/* line 146, ../sass/_base.scss */
 body .row-glossary h3 {
   font-size: 48px;
 }
-/* line 146, ../sass/_base.scss */
+/* line 150, ../sass/_base.scss */
 body .row-glossary img {
   margin-top: 8px;
 }
-/* line 151, ../sass/_base.scss */
+/* line 155, ../sass/_base.scss */
 body h5, body h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 157, ../sass/_base.scss */
+/* line 161, ../sass/_base.scss */
 body .jumbotron {
   margin-top: 30px;
   color: #FFF;
 }
-/* line 160, ../sass/_base.scss */
+/* line 164, ../sass/_base.scss */
 body .jumbotron p {
   font-size: 14px;
 }
-/* line 166, ../sass/_base.scss */
+/* line 170, ../sass/_base.scss */
 body .container .jumbotron, body .container-fluid .jumbotron {
   border-radius: 0;
 }
-/* line 171, ../sass/_base.scss */
+/* line 175, ../sass/_base.scss */
 body .jumbotron.dark-purple {
   background-color: #252161;
 }
-/* line 175, ../sass/_base.scss */
+/* line 179, ../sass/_base.scss */
 body .jumbotron-group {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 180, ../sass/_base.scss */
+/* line 184, ../sass/_base.scss */
 body .jumbotron .intro {
   line-height: 1.25;
 }
-/* line 184, ../sass/_base.scss */
+/* line 188, ../sass/_base.scss */
 body .jumbotron.footer {
   background: #222;
   color: #fff;
@@ -8407,31 +8309,31 @@ body .jumbotron.footer {
   margin-bottom: 0;
   border: none;
 }
-/* line 190, ../sass/_base.scss */
+/* line 194, ../sass/_base.scss */
 body .jumbotron.footer .row {
   max-width: 100%;
 }
-/* line 194, ../sass/_base.scss */
+/* line 198, ../sass/_base.scss */
 body .jumbotron.footer h1, body .jumbotron.footer h2, body .jumbotron.footer h3, body .jumbotron.footer h4, body .jumbotron.footer h5, body .jumbotron.footer h6, body .jumbotron.footer p, body .jumbotron.footer .panel.footer-panel li, body .jumbotron.footer dl {
   color: #fefefe;
 }
-/* line 198, ../sass/_base.scss */
+/* line 202, ../sass/_base.scss */
 body .jumbotron.footer p {
   font-size: 14px;
 }
-/* line 204, ../sass/_base.scss */
+/* line 208, ../sass/_base.scss */
 body .navbar-footer .bottom-bar ul {
   display: inline-block;
 }
-/* line 207, ../sass/_base.scss */
+/* line 211, ../sass/_base.scss */
 body .navbar-footer .bottom-bar ul li {
   float: left;
 }
-/* line 210, ../sass/_base.scss */
+/* line 214, ../sass/_base.scss */
 body .navbar-footer .bottom-bar ul li > a {
   width: 100%;
 }
-/* line 213, ../sass/_base.scss */
+/* line 217, ../sass/_base.scss */
 body .navbar-footer .bottom-bar ul li > a,
 body .navbar-footer .bottom-bar p {
   display: block;
@@ -8441,56 +8343,56 @@ body .navbar-footer .bottom-bar p {
   font-weight: normal;
   text-transform: none;
 }
-/* line 222, ../sass/_base.scss */
+/* line 226, ../sass/_base.scss */
 body .navbar-footer .bottom-bar ul li:first-of-type > a {
   padding-left: 0;
 }
-/* line 227, ../sass/_base.scss */
+/* line 231, ../sass/_base.scss */
 body .purple {
   color: #60297C;
 }
-/* line 230, ../sass/_base.scss */
+/* line 234, ../sass/_base.scss */
 body .pink {
   color: #EB1979;
 }
-/* line 233, ../sass/_base.scss */
+/* line 237, ../sass/_base.scss */
 body .light-blue {
   color: #25AAE1;
 }
-/* line 236, ../sass/_base.scss */
+/* line 240, ../sass/_base.scss */
 body .fern {
   color: #62BD83;
 }
-/* line 239, ../sass/_base.scss */
+/* line 243, ../sass/_base.scss */
 body .green {
   color: #22AE50;
 }
-/* line 245, ../sass/_base.scss */
+/* line 249, ../sass/_base.scss */
 body #myModal .modal-header {
   border-bottom: none;
 }
-/* line 248, ../sass/_base.scss */
+/* line 252, ../sass/_base.scss */
 body #myModal .btn-wide {
   padding: 6px 24px;
 }
-/* line 251, ../sass/_base.scss */
+/* line 255, ../sass/_base.scss */
 body #myModal .modal-title {
   text-transform: uppercase;
 }
-/* line 254, ../sass/_base.scss */
+/* line 258, ../sass/_base.scss */
 body #myModal .modal-content {
   padding: 24px;
   border-radius: 0;
 }
-/* line 259, ../sass/_base.scss */
+/* line 263, ../sass/_base.scss */
 body #myModal input {
   margin: 24px 0;
 }
-/* line 264, ../sass/_base.scss */
+/* line 268, ../sass/_base.scss */
 body .circles {
   margin: 0px auto;
 }
-/* line 267, ../sass/_base.scss */
+/* line 271, ../sass/_base.scss */
 body .circles > div {
   overflow: hidden;
   float: left;
@@ -8503,7 +8405,7 @@ body .circles > div {
   -khtml-border-radius: 50%;
   background: #eee;
 }
-/* line 280, ../sass/_base.scss */
+/* line 284, ../sass/_base.scss */
 body .circles > div > div {
   position: absolute;
   top: 0;
@@ -8511,36 +8413,36 @@ body .circles > div > div {
   bottom: 0;
   left: 0;
 }
-/* line 287, ../sass/_base.scss */
+/* line 291, ../sass/_base.scss */
 body .circles > div > div > div {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 292, ../sass/_base.scss */
+/* line 296, ../sass/_base.scss */
 body .circles > div > div > div > div {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 @media (max-width: 320px) {
-  /* line 300, ../sass/_base.scss */
+  /* line 304, ../sass/_base.scss */
   body .circles > div {
     padding: 50%;
   }
 }
 @media (min-width: 321px) and (max-width: 800px) {
-  /* line 305, ../sass/_base.scss */
+  /* line 309, ../sass/_base.scss */
   body .circles > div {
     padding: 25%;
   }
 }
 @media (min-width: 801px) {
-  /* line 310, ../sass/_base.scss */
+  /* line 314, ../sass/_base.scss */
   body .circles {
     width: 800px;
   }
-  /* line 311, ../sass/_base.scss */
+  /* line 315, ../sass/_base.scss */
   body .circles > div {
     padding: 12.5%;
   }
@@ -8553,52 +8455,90 @@ body .disable-margin-padding {
   padding-bottom: 3px;
 }
 /* line 8, ../sass/_index.scss */
+body #contactBar {
+  background-color: black;
+  color: #ffffff;
+}
+/* line 11, ../sass/_index.scss */
+body #contactBar p {
+  padding: 15px 0 10px 0;
+}
+/* line 16, ../sass/_index.scss */
 body a#indiegogo {
   color: #333;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 12, ../sass/_index.scss */
+/* line 20, ../sass/_index.scss */
 body a#indiegogo :hover {
   color: #268db5;
 }
-/* line 18, ../sass/_index.scss */
-body #myModal h2 {
+/* line 23, ../sass/_index.scss */
+body a#indiegogo h3 {
+  font-weight: bold;
+}
+/* line 28, ../sass/_index.scss */
+body .sm-indiegogo {
+  margin-top: 40px;
+}
+/* line 32, ../sass/_index.scss */
+body #indexTout {
+  margin-top: 45px;
+  background: transparent url("/img/index-bg.png") 0 0 repeat scroll;
+}
+/* line 38, ../sass/_index.scss */
+body #productsGrid h4 {
+  font-size: 1.5em;
+  color: #2FAADB;
+  font-weight: bold;
+}
+/* line 43, ../sass/_index.scss */
+body #productsGrid .bottom-half {
+  margin-top: 20px;
+}
+/* line 49, ../sass/_index.scss */
+body #welcomeModal h2 {
   font-family: "Open Sans Condensed";
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 22, ../sass/_index.scss */
-body #myModal h2 span {
+/* line 53, ../sass/_index.scss */
+body #welcomeModal h2 span {
   color: #60297C;
 }
-/* line 27, ../sass/_index.scss */
-body #myModal button {
+/* line 58, ../sass/_index.scss */
+body #welcomeModal button {
   color: white;
   text-transform: uppercase;
 }
-/* line 32, ../sass/_index.scss */
-body #myModal input {
+/* line 63, ../sass/_index.scss */
+body #welcomeModal input {
   background: #eee;
   border: none;
 }
-/* line 37, ../sass/_index.scss */
-body #myModal .btn.btn-wide {
+/* line 68, ../sass/_index.scss */
+body #welcomeModal .btn.btn-wide {
   padding: 6px 48px;
 }
-/* line 41, ../sass/_index.scss */
-body #myModal button:hover {
+/* line 72, ../sass/_index.scss */
+body #welcomeModal button:hover {
   color: white;
 }
-/* line 47, ../sass/_index.scss */
+/* line 78, ../sass/_index.scss */
 body #videoModal .modal-body {
   padding: 0;
 }
 @media (min-width: 768px) {
-  /* line 53, ../sass/_index.scss */
+  /* line 84, ../sass/_index.scss */
   body .modal-dialog {
     width: 562px;
     margin: 30px auto;
+  }
+}
+@media (max-width: 730px) {
+  /* line 92, ../sass/_index.scss */
+  body #productsGrid .bottom-half {
+    margin-top: 5px;
   }
 }
 
@@ -8609,6 +8549,28 @@ body section#build .checkbox {
 /* line 6, ../sass/_build.scss */
 body section#build .checkbox label input {
   margin-top: 1px;
+}
+
+/* line 2, ../sass/_standard.scss */
+body .parts-box {
+  display: inline-block;
+  padding: 5px 10px;
+}
+/* line 6, ../sass/_standard.scss */
+body .parts-box.green {
+  border: 2px #5fbc9b solid;
+}
+/* line 9, ../sass/_standard.scss */
+body .parts-box.purple-red {
+  border: 2px #60297C solid;
+}
+/* line 12, ../sass/_standard.scss */
+body .parts-box.blue {
+  border: 2px #2FAADB solid;
+}
+/* line 15, ../sass/_standard.scss */
+body .parts-box.pink {
+  border: 2px #da4a89 solid;
 }
 
 /* line 3, ../sass/_about.scss */
